@@ -5,7 +5,9 @@
     /// </summary>
     public class MilesPerHourType : CustomFloatType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MilesPerHourType"/> class.
+        /// </summary>
         public MilesPerHourType() : base("MilesPerHour")
         {
             Description = "The `MilesPerHour` scalar type represents speeds measured in mi/h.";

@@ -5,7 +5,9 @@
     /// </summary>
     public class DegreesType : CustomFloatType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DegreesType"/> class.
+        /// </summary>
         public DegreesType() : base("Degrees")
         {
             Description = "The `Degrees` scalar type represents an angle in degrees.";

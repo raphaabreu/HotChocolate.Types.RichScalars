@@ -7,7 +7,9 @@ namespace HotChocolate.Types.RichScalars
     /// </summary>
     public class SecondsType : CustomTimeSpanType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SecondsType"/> class.
+        /// </summary>
         public SecondsType() : base("Seconds")
         {
             Description =

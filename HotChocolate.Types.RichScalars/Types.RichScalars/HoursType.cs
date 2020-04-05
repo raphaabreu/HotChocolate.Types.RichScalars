@@ -7,7 +7,9 @@ namespace HotChocolate.Types.RichScalars
     /// </summary>
     public class HoursType : CustomTimeSpanType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="HoursType"/> class.
+        /// </summary>
         public HoursType() : base("Hours")
         {
             Description =

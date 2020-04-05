@@ -5,7 +5,9 @@
     /// </summary>
     public class SquareKilometersType : CustomFloatType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SquareKilometersType"/> class.
+        /// </summary>
         public SquareKilometersType() : base("SquareKilometers")
         {
             Description = "The `SquareKilometers` scalar type represents areas measured in km^2.";

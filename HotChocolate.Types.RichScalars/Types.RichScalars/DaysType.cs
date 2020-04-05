@@ -7,7 +7,9 @@ namespace HotChocolate.Types.RichScalars
     /// </summary>
     public class DaysType : CustomTimeSpanType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DaysType"/> class.
+        /// </summary>
         public DaysType() : base("Days")
         {
             Description =

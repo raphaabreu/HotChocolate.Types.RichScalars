@@ -5,7 +5,9 @@
     /// </summary>
     public class MetersPerSecondType : CustomFloatType
     {
-        /// <inheritdoc />
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MetersPerSecondType"/> class.
+        /// </summary>
         public MetersPerSecondType() : base("MetersPerSecond")
         {
             Description = "The `MetersPerSecond` scalar type represents speeds measured in m/s.";

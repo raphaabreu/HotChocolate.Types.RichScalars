@@ -7,9 +7,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Simple extension to the original HotChocolate Type system to make it easier to have rich schemas by using custom scalars that describe common units of length, time, speed, area, angles, etc.</Description>
-    <RepositoryUrl>https://github.com/raphaabreu/HotChocolate.Types.SI</RepositoryUrl>
+    <RepositoryUrl>https://github.com/raphaabreu/HotChocolate.Types.RichScalars</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <PackageProjectUrl>https://github.com/raphaabreu/HotChocolate.Types.SI</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/raphaabreu/HotChocolate.Types.RichScalars</PackageProjectUrl>
     <PackageTags>hotchocolate custom scalars speed length angle time area</PackageTags>
     <Copyright>MIT</Copyright>
     <Version>10.3.5</Version>
